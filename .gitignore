@@ -1,0 +1,22 @@
+# Data files (too large for git)
+*.csv
+*.zip
+
+# Checkpoints (model files, too large)
+checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Claude AI files
+.claude/
+memory/
+
+# CatBoost temp files
+catboost_info/
+
+# Markdown files (except README and assignment)
+REPORT.md
+SLIDE_SCRIPT.md
+CODE_ANALYSIS.md
