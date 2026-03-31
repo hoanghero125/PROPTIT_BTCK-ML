@@ -1,12 +1,3 @@
-"""
-Binary Classification Challenge - v6
-Goal: Improve v5 Final (F1=0.9607) by adding deep learning models for more ensemble diversity.
-
-v5 had 8 models (3 raw tree + 3 eng tree + 2 linear).
-v6 adds MLP + TabNet → 10 total for dual-weight optimization.
-DL models have smooth decision boundaries (vs tree splits) → different error patterns.
-"""
-
 import warnings
 warnings.filterwarnings('ignore')
 

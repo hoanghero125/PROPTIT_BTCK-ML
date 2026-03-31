@@ -1,14 +1,3 @@
-"""
-Binary Classification Challenge - v4
-Goal: Beat BOTH v2 and v3 on the Final metric (test label=0 + challenge label=1).
-  v2 Final: Acc=0.9609 Prec=0.8818 Rec=0.8955 F1=0.8886 AUC=0.9903
-  v3 Final: Acc=0.9591 Prec=0.8566 Rec=0.9192 F1=0.8868 AUC=0.9840
-
-Approach: Zero retraining. Load existing v2 tree + v3 linear predictions.
-Optimize ensemble weights+threshold specifically for the Final combined metric.
-Runs in ~1 minute.
-"""
-
 import warnings
 warnings.filterwarnings('ignore')
 

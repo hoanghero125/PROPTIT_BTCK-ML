@@ -1,14 +1,3 @@
-"""
-Binary Classification Challenge - Final ML Course Assignment (v2 - continue from checkpoints)
-Pipeline: Load -> EDA -> Preprocessing -> Feature Engineering -> Training -> Tuning -> Evaluation
-Seed: 42 for reproducibility
-
-Hardware: Threadripper 7970X (64 cores), 257GB RAM, GPU 49GB VRAM (cuda:0)
-Checkpoint system: resumes from checkpoints/ saved by solution.py.
-LGB params hardcoded from previous run (best CV AUC ~0.9990).
-XGB + CAT tuned with Optuna (fast: 3-fold, 1500 rounds).
-"""
-
 import warnings
 warnings.filterwarnings('ignore')
 

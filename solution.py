@@ -1,13 +1,3 @@
-"""
-Binary Classification Challenge - Final ML Course Assignment
-Pipeline: Load -> EDA -> Preprocessing -> Feature Engineering -> Training -> Tuning -> Evaluation
-Seed: 42 for reproducibility
-
-Hardware: Threadripper 7970X (64 cores), 257GB RAM, GPU 49GB VRAM (cuda:0)
-Checkpoint system: saves progress to checkpoints/ after each major step.
-                   Re-run safely -- completed steps are skipped automatically.
-"""
-
 import warnings
 warnings.filterwarnings('ignore')
 

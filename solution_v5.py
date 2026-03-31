@@ -1,17 +1,3 @@
-"""
-Binary Classification Challenge - v5
-Goal: Improve v4's Final metric (F1=0.9586, AUC=0.9860) by adding raw-feature models.
-
-v4 had only 5 base models for dual-weight optimization.
-v5 adds 3 raw-feature tree models (LGB/XGB/CAT) → 8 total.
-More diverse models = different error patterns = better dual optimization.
-
-Phase 1: Load data + existing predictions
-Phase 2: Train LGB/XGB/CAT on raw features (5-fold OOF, reuse v2 params, no Optuna)
-Phase 3: Dual-weight optimization with 8 models (20000 trials)
-Phase 4: Evaluation
-"""
-
 import warnings
 warnings.filterwarnings('ignore')
 

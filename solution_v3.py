@@ -1,10 +1,3 @@
-"""
-Binary Classification Challenge - v3
-Adds linear models (LogReg + SGD) to the ensemble to handle challenge set distribution shift.
-Adds threshold optimization.
-Reuses tree model predictions from v2 checkpoint.
-"""
-
 import warnings
 warnings.filterwarnings('ignore')
 
